@@ -12,7 +12,7 @@ NCSU ECE 759 (Pattern Recognition & Machine Learning) Software Project
   - Anaconda on Windows 10 Education -> Jupyter Notebook
   
 ## About the Repo.
-  - The FDDB dataset is included in this repository.  Details about the dataset can be found in [X].
+  - The FDDB dataset is included in this repository.  Details about the dataset can be found in [1].
   - **models.ipynb** in **/code** is the Jupyter Notebook that contains the Python implementation of the two models.  The notebook shows how to run each of the models to get the results and plots
   - **data_extracter.ipynb** in **/code** extracts the images from the original FDDB in dataset to **/FDDB** under **negImages** and **posImages**.  The extracted images are then manually picked and divided into training and test set in **/dataset**
   - Final report details the implementations of the functions in this project along with the results + analysis
@@ -21,11 +21,13 @@ NCSU ECE 759 (Pattern Recognition & Machine Learning) Software Project
 Khoa Do
 
 ## Reference
-[1]  D. Recchia, “Scale Invariant Blob Detection,” Recchia's Portfolio. [Online]. Available: https://www.drecchia.ca/scale-invariant-blob-detection. [Accessed: 30-Nov-2021].
+[1]  Vidit Jain and Erik Learned-Miller. FDDB: A Benchmark for Face Detection in Unconstrained Settings. Technical Report UM-CS-2010-009, Dept. of Computer Science, University of Massachusetts, Amherst. 2010.
 
-[2] “DSP Tricks: Computing Inverse FFTs Using the Forward FFT,” Embedded.com, 16-Nov-2010. [Online]. Available: https://www.embedded.com/dsp-tricks-computing-inverse-ffts-using-the-forward-fft/. [Accessed: 30-Nov-2021].
+[2]  A. Singh, “Build Better and Accurate Clusters with Gaussian Mixture Models,” Analytics Vidhya, 31-Oct-2019. [Online]. Available: https://www.analyticsvidhya.com/blog/2019/10/gaussian-mixture-models-clustering/. [Accessed: 11-Apr-2022].
 
-[3] https://github.com/scikit-image/scikit-image/blob/main/skimage/feature/blob.py#L401-L564.
+[3]  Prince, S.J., 2012. Computer vision: models, learning, and inference. Cambridge University Press.
+
+[4]  A. Rosebrock, “Intersection over union (IOU) for object detection,” PyImageSearch, 07-Nov-2016. [Online]. Available: https://pyimagesearch.com/2016/11/07/intersection-over-union-iou-for-object-detection/. [Accessed: 11-Apr-2022].
 
 ## Additional Notes
 N/A
