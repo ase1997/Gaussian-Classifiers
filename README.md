@@ -4,14 +4,17 @@
 
 ## Project Description
 NCSU ECE 759 (Pattern Recognition & Machine Learning) Software Project
-  - Implement a single-Gaussian classifier and a Gaussian-mixture classifier and analyze their performance
+  - Implement a single-Gaussian classifier and a Gaussian-mixture classifier from scratch and analyze their performance
+  - The above models classify 10x10 images of face or non-face from the FDDB datatset
 
 ## Dependencies
   - See **environment.yaml** in **/code** directory for complete list of dependecies  
   - Anaconda on Windows 10 Education -> Jupyter Notebook
   
 ## About the Repo.
-  - kddo_dfmunoz_code contains **main.py** that are carefully commented.  The algortihm developed is LoG/SIFT.  The input image's size stay constant and is convoled with a Guassian kernel at different sizes. The 2-D convolution is modifed to perform computation in frequency domain using 2-D FFT and iFFT functions using in **ECE 558 (Digital Imaging Systems) Project 1**
+  - The FDDB dataset is included in this repository.  Details about the dataset can be found in [X].
+  - **models.ipynb** in **/code** is the Jupyter Notebook that contains the Python implementation of the two models.  The notebook shows how to run each of the models to get the results and plots
+  - **data_extracter.ipynb** in **/code** extracts the images from the original FDDB in dataset to **/FDDB** under **negImages** and **posImages**.  The extracted images are then manually picked and divided into training and test set in **/dataset**
   - Final report details the implementations of the functions in this project along with the results + analysis
 
 ## Authors
